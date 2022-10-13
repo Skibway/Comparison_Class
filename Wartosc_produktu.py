@@ -35,15 +35,15 @@ class Compare:
             x = Compare.price_per_gram(self, i)
             y = Compare.prod_perc_value_in_1kg(self, i)
             sum += x * y
-            print(f"{i}\t=\t:\t{round(x*y, 2)}\tfor\t{y} grams\n")
+            print(f"{i}\t=\t:\t{round(x*y, 2)}\tfor\t{y} grams")
         return f"""
-        {str(i for i in list_of_prod)}
-        {round(sum, 2)} zloty for 1000g homemade oatmeal
-        Comparing bought and homemade oatmeals
-        Bought oatmeal equals: 
-        {a} zloty for {b} grams
-        Homemade oatmeal equals: 
-        {round(sum * b / 1000, 2)} zloty for {b} grams"""
+{round(sum, 2)} zloty for 1000g homemade oatmeal
+
+Comparing bought and homemade oatmeals
+Bought oatmeal equals: 
+{a} zloty for {b} grams
+Homemade oatmeal equals: 
+{round(sum * b / 1000, 2)} zloty for {b} grams"""
         
 
 
@@ -63,7 +63,7 @@ product_price_weight = {
     'dark chocolate': [47.90, 1000],
     'dry dates': [8, 500],
     'rice flour': [9.27, 500],
-    'milk chocolate': [67.99, 1000],
+    'milk chocolate': [50.90, 1000],
     'chicory inulin': [15.79, 500]
 }
 with open("/Users/piotrskiba/Documents/GitHub/Comparison_Class/result.txt", "w") as f:
