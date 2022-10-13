@@ -1,0 +1,8 @@
+
+        <generator object Compare.summary.<locals>.<genexpr> at 0x106431f50>
+        40.3 zloty for 1000g homemade oatmeal
+        Comparing bought and homemade oatmeals
+        Bought oatmeal equals: 
+        11.24 zloty for 450 grams
+        Homemade oatmeal equals: 
+        18.14 zloty for 450 grams
